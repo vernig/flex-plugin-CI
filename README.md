@@ -4,4 +4,4 @@ This repository is an example of how to use GitHub Actions to deploy a Twilio Fl
 
 # Gotachas
 
-Note that warning in any of the steps, will stop the process in GitHub Actions. This is different from what happen locally. The reason for that is that when `process.env.CI` is set to  `true` all warning are treated as error.
+Note that warning in any of the steps, will stop the process in GitHub Actions. This is different from what happen locally. The reason for that is that when `process.env.CI` is set to  `true` all warning are treated as error. You can see that in action in the branch `ci-error`. 
