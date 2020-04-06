@@ -1,4 +1,5 @@
 const ACTION_DISMISS_BAR = 'DISMISS_BAR';
+const foo = "hello";
 
 const initialState = {
   isOpen: true,
