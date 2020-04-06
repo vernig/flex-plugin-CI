@@ -1,0 +1,13 @@
+[
+  {
+    "name": "plugin-automation",
+    "version": "0.0.0",
+    "class": "AutomationPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-automation.js"
+  }
+]
